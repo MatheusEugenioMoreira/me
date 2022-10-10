@@ -1,0 +1,23 @@
+{
+  "homepage": {
+    "hero": {
+      "catchPhrase1": "Always learning something new...",
+      "location": "Belo Horizonte, MG, Brazil",
+      "contactButton": "Entrar em Contao"
+    },
+    "stack": {
+      "title": "Hard Skills",
+      "database": "Databases",
+      "tools": "Tools and Frameworks"
+    },
+    "contact": {
+      "description": "Entre em contato:"
+    },
+    "about": {
+      "title": "Sobre mim:",
+      "graduation": "Cursando Sistema de Informação",
+      "experience": "",
+      "next": "Sempre disposta a aprender algo novo"
+    }
+  }
+}
