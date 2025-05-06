@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/components/AboutMe.module.css";
-import { FaCodeBranch, FaGraduationCap } from "react-icons/fa";
+import { FaCodeBranch, FaRegCheckCircle } from "react-icons/fa";
 import { FiNavigation } from "react-icons/fi";
 
 import { useTranslation } from "react-i18next";
@@ -13,7 +13,7 @@ function AboutMe() {
       <div className={styles.aboutContentContainer}>
         <div className={styles.profilePictureContainer}>
           <a
-            href="https://github.com/matheusem"
+            href="https://github.com/MatheusEugenioMoreira"
             target="_blank"
             rel="noreferrer noopener"
           >
@@ -26,11 +26,9 @@ function AboutMe() {
         </div>
         <div className={styles.aboutMeDetailsContainer}>
           <h1>Matheus Eugenio Moreira</h1>
-          <p>Tech Lead, Full Stack Developer & DevOps</p>
+          <p>IT Manager & Tech Lead at eduCAT | AI engineer</p>
           <br />
-          <p>
-            <FaGraduationCap /> {t("homepage.about.graduation")}
-          </p>
+          <p> {t("homepage.about.experience")}</p>
           <p>
             <FiNavigation /> {t("homepage.about.next")}
           </p>

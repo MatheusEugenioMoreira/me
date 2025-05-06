@@ -1,7 +1,7 @@
-import React from 'react';
-import { FaCode } from 'react-icons/fa';
+import React from "react";
+import { FaCode } from "react-icons/fa";
 
-import styles from '../styles/components/Footer.module.css';
+import styles from "../styles/components/Footer.module.css";
 
 function Footer() {
   return (
@@ -12,10 +12,10 @@ function Footer() {
           <FaCode />
           <span>
             <span className={styles.developedBy}>Developed </span>
-            by{' '}
+            by{" "}
             <strong>
               <a
-                href="https://github.com/matheusem"
+                href="https://github.com/MatheusEugenioMoreira"
                 target="_blank"
                 rel="noreferrer"
               >

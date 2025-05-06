@@ -1,6 +1,12 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { FaDiscord, FaGithub, FaLinkedin, FaMailBulk, FaSkype } from "react-icons/fa";
+import {
+  FaDiscord,
+  FaGithub,
+  FaLinkedin,
+  FaMailBulk,
+  FaSkype,
+} from "react-icons/fa";
 
 import styles from "../../styles/pages/homepage/ContactCard.module.css";
 import homepageStyles from "../../styles/pages/Homepage.module.css";
@@ -17,7 +23,7 @@ function ContactCard() {
         </div>
         <div className={styles.contactLinks}>
           <a
-            href="https://github.com/matheusem"
+            href="https://github.com/MatheusEugenioMoreira"
             target="_blank"
             rel="noreferrer"
           >

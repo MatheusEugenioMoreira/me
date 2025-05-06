@@ -28,7 +28,7 @@ function Homepage() {
   const { t } = useTranslation();
   const [title, setTitle] = useState("");
   const [fullTitle, setFullTitle] = useState(
-    "Olá 👋, me chamo Matheus Eugenio Moreira!"
+    "Hi 👋, I'm Matheus Eugenio Moreira!"
   );
   const [index, setIndex] = useState(0);
 
@@ -70,7 +70,7 @@ function Homepage() {
           </div>
           <div className={styles.presentationAbout}>
             {/* <h1>Matheus Eugenio Moreira</h1> */}
-            <p>Tech Lead, Full Stack Developer & DevOps</p>
+            <p>IT Manager & Tech Lead at eduCAT | AI engineer</p>
             <p>{t("homepage.hero.location")}</p>
             <div className={styles.presentationStack} onClick={scrollToSkills}>
               <div className={styles.stackIconsContainer}>

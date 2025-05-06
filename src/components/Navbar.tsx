@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
-import navbarLogo from '../assets/icons/navbar-logo.svg';
-import linkedInIcon from '../assets/icons/linkedIn.svg';
-import github from '../assets/icons/github.svg';
-import hamburgerMenu from '../assets/icons/hamburger-menu.svg';
-import rightArrow from '../assets/icons/right-arrow.svg';
-import closeIcon from '../assets/icons/close.svg';
+import navbarLogo from "../assets/icons/navbar-logo.svg";
+import linkedInIcon from "../assets/icons/linkedIn.svg";
+import github from "../assets/icons/github.svg";
+import hamburgerMenu from "../assets/icons/hamburger-menu.svg";
+import rightArrow from "../assets/icons/right-arrow.svg";
+import closeIcon from "../assets/icons/close.svg";
 
-import styles from '../styles/components/Navbar.module.css';
-import { useTranslation } from 'react-i18next';
-import { scroller } from 'react-scroll';
+import styles from "../styles/components/Navbar.module.css";
+import { useTranslation } from "react-i18next";
+import { scroller } from "react-scroll";
 
 function Navbar() {
   const [lateralNavIsVisible, setLateralNavIsVisible] = useState(false);
@@ -27,14 +27,14 @@ function Navbar() {
   };
 
   const scrollToRoot = () => {
-    scroller.scrollTo('root', {
+    scroller.scrollTo("root", {
       duration: 600,
       delay: 0,
-      smooth: 'easeInOut',
+      smooth: "easeInOut",
     });
   };
 
-  window.addEventListener('scroll', changeNavbarBackground);
+  window.addEventListener("scroll", changeNavbarBackground);
 
   const links = (
     <>
@@ -58,7 +58,7 @@ function Navbar() {
         <img src={rightArrow} alt="Right Arrow" />
       </a>
       <a
-        href="https://github.com/matheusem/"
+        href="https://github.com/MatheusEugenioMoreira/"
         target="_blank"
         rel="noreferrer"
         className={styles.navbarLinksLink}
@@ -103,7 +103,7 @@ function Navbar() {
       </nav>
       <div
         className={`${styles.lateralNavbar} ${
-          !lateralNavIsVisible ? styles.lateralNavVisible : ''
+          !lateralNavIsVisible ? styles.lateralNavVisible : ""
         }`}
       >
         {links}

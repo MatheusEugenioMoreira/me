@@ -56,14 +56,14 @@ function SkillStack() {
         name="Python"
         role="back-end"
         color="#10314c"
-        level={2}
+        level={6}
       />
       <SkillStackItem
         icon={djangoIcon}
         name="Django"
         role="back-end"
         color="#0a2615eb"
-        level={2}
+        level={6}
       />
       <SkillStackItem
         icon={simpleCssIcon}
@@ -106,7 +106,7 @@ function SkillStack() {
         name="AWS"
         role="back-end"
         color="#1A2B3C"
-        level={4}
+        level={5}
       />
       <SkillStackItem
         icon={terraformStackIcon}
@@ -127,14 +127,14 @@ function SkillStack() {
         name="Docker"
         role="tool"
         color="#066DA5"
-        level={4}
+        level={5}
       />
       <SkillStackItem
         icon={simpleSqlServerIcon}
         name="SQL Server"
         role="database"
         color="#D72D29"
-        level={3}
+        level={5}
       />
     </div>
   );

@@ -3,7 +3,7 @@
     "hero": {
       "catchPhrase1": "Always learning something new...",
       "location": "Belo Horizonte, MG, Brazil",
-      "contactButton": "Entrar em Contao"
+      "contactButton": "Contact me"
     },
     "stack": {
       "title": "Hard Skills",
@@ -11,13 +11,13 @@
       "tools": "Tools and Frameworks"
     },
     "contact": {
-      "description": "Entre em contato:"
+      "description": "Contact me:"
     },
     "about": {
-      "title": "Sobre mim:",
-      "graduation": "Cursando Sistema de Informação",
-      "experience": "",
-      "next": "Sempre disposta a aprender algo novo"
+      "title": "About me:",
+      "graduation": "Studying Information Systems",
+      "experience": "9+ years of experience",
+      "next": "Always willing to learn something new"
     }
   }
 }
